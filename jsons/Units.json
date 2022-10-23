@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Nomadic Archer",
+    "uniqueTo": "Dandelion",
+    "replaces": "Crossbowman",        
+    "unitType": "Shooter",
+    "cost": 30,
+    "movement": 2,
+    "strength": 17,
+    "rangedStrength": 16,
+    "range": 2,
+       "requiredTech": "Iron Working",
+       "obsoleteTech": "Rifling",
+       "upgradesTo": "Gunman",
+       "hurryCostModifier": 20,
+       "uniques": [
+           "Low Tech",
+           "[+33]% Strength <vs [Low Tech] units>",
+           "[+1] Sight"
+                  ],
+        "attackSound": "arrow"
+
+   }	
+
+]
