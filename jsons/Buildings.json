@@ -1,0 +1,33 @@
+[
+    // Capital Uniques
+    {
+        "name": "Mental Collectivism",
+        "isWonder": true,
+        "uniqueTo": "Dandelion",
+        "cost": 1,
+        "uniques": [
+            "Can only be built [in capital]",
+            "[+2 Food] [in capital]",
+            "[+2 Science] [in all cities]",
+            "[+2 Happiness] [in all cities]"
+        ],
+		"quote": "United by banner, seperated by disorder.",
+		"civilopediaText": [
+			{
+				"text": "*United by banner, separated by disorder."
+			}
+		]	
+    },
+
+    // Normal Uniques
+	{
+		"name": "Hunter's Bazaar",
+		"replaces": "Market",
+		"uniqueTo": "Dandelion",
+		"happiness": 1,
+		"food": 2,
+		"requiredTech": "Trade",
+		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]"]
+
+	}
+]
