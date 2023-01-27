@@ -7,9 +7,9 @@
         "cost": 1,
         "uniques": [
             "Can only be built [in capital]",
-            "[+2 Food] [in capital]",
-            "[+2 Science] [in all cities]",
-            "[+2 Happiness] [in all cities]"
+            "[+1 Science] [in capital]",
+            "[+2 Happiness] [in all cities]",
+            "Provides [1] [Exotic Seeds]"
         ],
 		"quote": "United by banner, seperated by disorder.",
 		"civilopediaText": [
@@ -29,5 +29,23 @@
 		"requiredTech": "Trade",
 		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]"]
 
+	},
+	{
+		"name": "Biological Restoration",
+                "replaces": "University",
+                "uniqueTo": "Dandelion",
+		"maintenance": 1,
+		"hurryCostModifier": 20,
+		"percentStatBonus": { "science": 30 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Science] [in this city] <with [Power]>",
+                        "Provides [1] [Exotic Seeds]"
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
 	}
 ]
