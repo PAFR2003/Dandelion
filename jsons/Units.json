@@ -12,7 +12,7 @@
        "requiredTech": "Iron Working",
        "obsoleteTech": "Rifling",
        "upgradesTo": "Gunman",
-       "hurryCostModifier": 20,
+       "hurryCostModifier": 40,
        "uniques": [
            "Low Tech",
            "[+33]% Strength <vs [Low Tech] units>",
